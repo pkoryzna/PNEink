@@ -344,4 +344,14 @@ QUICKSETTINGS
   background-image: url("./assets/toggle-on.svg");
 }
 
+/* 2024. Jul 12 
+   On Debian trixie, password input is broken in that there is white text on white background (i.e., not visible).
+   For some reason, just setting the color property to black does not work.
+   As a work-around, set the background to black (this works)
+*/
+.prompt-dialog-password-entry {                                                                                                                                                           
+   /*color: #ffffff; */                                                                                                                                                                    
+   background-color: black;                                                                                                                                                                
+}
+
 /*# sourceMappingURL=gnome-shell.css.map */
