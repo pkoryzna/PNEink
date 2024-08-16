@@ -1,6 +1,8 @@
 /*
 TOP BAR
 #panel is the ID of the top bar in gnome
+
+#ffffff will render as white ????
 */
 #panel {
   background-color: #ffffff;
@@ -10,6 +12,12 @@ TOP BAR
   border-right: none;
   border-top: none;
 }
+
+/* in pre-45 times this was the activities button in the upper left corner */
+#panel .workspace-dot{
+  background-color: #000000;
+}
+
 #panel .panel-button {
   color: #000000;
   margin: 0.1em;
@@ -344,14 +352,14 @@ QUICKSETTINGS
   background-image: url("./assets/toggle-on.svg");
 }
 
-/* 2024. Jul 12 
+/* 2024. Jul 12
    On Debian trixie, password input is broken in that there is white text on white background (i.e., not visible).
    For some reason, just setting the color property to black does not work.
    As a work-around, set the background to black (this works)
 */
-.prompt-dialog-password-entry {                                                                                                                                                           
-   /*color: #ffffff; */                                                                                                                                                                    
-   background-color: black;                                                                                                                                                                
+.prompt-dialog-password-entry {
+   /*color: #ffffff; */
+   background-color: black;
 }
 
 /*# sourceMappingURL=gnome-shell.css.map */
