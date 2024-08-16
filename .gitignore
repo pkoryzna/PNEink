@@ -12,3 +12,5 @@
 
 # Remove adwaita.css
 gnome-shell/adwaita.css
+
+pneink*.deb
