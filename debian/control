@@ -1,12 +1,12 @@
 Source: pneink
 Section: unknown
 Priority: optional
-Maintainer: Maximilian Weigand <Maximilian Weigand (PineNote Signing Key 3) <mweigand@mweigand.net>>
+Maintainer: Maximilian Weigand <Maximilian Weigand <mweigand@mweigand.net>>
 Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 13),
 Standards-Version: 4.6.2
-Homepage: <insert the upstream URL, if relevant>
+Homepage: https://github.com/PNDeb/PNEink
 #Vcs-Browser: https://salsa.debian.org/debian/pneink
 #Vcs-Git: https://salsa.debian.org/debian/pneink.git
 
