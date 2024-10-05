@@ -16,6 +16,14 @@ Clone to /usr/share/themes
 
 ## Modifications
 
+In general, make sure to first modify the source css (.scss) files, and then
+regenerate the corresponding .css file, e.g.:
+
+	cd gnome-shell
+	sassc \
+		--style expanded \
+		gnome-shell.scss gnome-shell.css
+
 ### Looking Glass
 
 The built-in debugger can help to identify entities that you want to modify:
