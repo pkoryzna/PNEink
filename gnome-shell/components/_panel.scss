@@ -1,6 +1,8 @@
 /*
 TOP BAR
 #panel is the ID of the top bar in gnome
+
+#ffffff will render as white ????
 */
 #panel{
   background-color: $light;
@@ -9,6 +11,12 @@ TOP BAR
   border-left: none;
   border-right: none;
   border-top: none;
+
+  .workspace-dot{
+	  /* in pre-45 times this was the activities button in the upper left
+	   * corner */
+	  background-color: #000000;
+   }
 
   .panel-button{
     color: $dark;

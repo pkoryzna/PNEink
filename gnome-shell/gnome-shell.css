@@ -13,8 +13,9 @@ TOP BAR
   border-top: none;
 }
 
-/* in pre-45 times this was the activities button in the upper left corner */
-#panel .workspace-dot{
+#panel .workspace-dot {
+  /* in pre-45 times this was the activities button in the upper left
+	   * corner */
   background-color: #000000;
 }
 
@@ -22,28 +23,35 @@ TOP BAR
   color: #000000;
   margin: 0.1em;
 }
+
 #panel .panel-button * {
   color: #000000;
 }
+
 #panel .panel-button:hover {
   background-color: #000000;
   color: #ffffff;
 }
+
 #panel .panel-button:hover * {
   color: #ffffff;
 }
+
 #panel .panel-button:hover .clock {
   box-shadow: none;
 }
+
 #panel .clock-display {
   spacing: 0;
   padding: 0;
   margin-bottom: 4px;
 }
+
 #panel .clock-display:hover {
   background-color: rgba(0, 0, 0, 0) !important;
   color: rgba(0, 0, 0, 0) !important;
 }
+
 #panel .clock-display:hover .clock {
   background-color: #000000;
   color: #ffffff;
@@ -75,13 +83,16 @@ DATE MENU
 .calendar .calendar-month-header .calendar-month-label {
   color: #000000;
 }
+
 .calendar .calendar-nonwork-day {
   color: #000000;
 }
+
 .calendar .calendar-today {
   background-color: #000000;
   color: #000000;
 }
+
 .calendar .calendar-week-number {
   background-color: #ffffff;
   color: #000000;
@@ -93,6 +104,7 @@ DATE MENU
   background-color: #ffffff;
   border: 2px solid #000000;
 }
+
 .events-button * {
   color: #000000;
 }
@@ -104,6 +116,7 @@ DATE MENU
   background-color: #ffffff;
   border: 2px solid #000000;
 }
+
 .world-clocks-button .world-clocks-header, .world-clocks-button .world-clocks-time, .world-clocks-button .world-clocks-city, .world-clocks-button .world-clocks-timezone {
   color: #000000;
 }
@@ -114,9 +127,11 @@ DATE MENU
   background-color: #ffffff;
   border: 2px solid #000000;
 }
+
 .weather-button .weather-header {
   color: #000000;
 }
+
 .weather-button .weather-forecast-time {
   color: #000000;
 }
@@ -128,6 +143,7 @@ SEARCH
   background-color: #ffffff;
   border: 2px solid #000000;
 }
+
 .search-section-content * {
   color: #000000;
 }
@@ -136,6 +152,7 @@ SEARCH
   background-color: #ffffff;
   border: 2px solid #000000;
 }
+
 .list-search-result * {
   color: #000000;
 }
@@ -186,12 +203,14 @@ styling for gnomes on screen keyboard
   box-shadow: none;
   border-top: 2px solid #000000;
 }
+
 #keyboard .keyboard-key {
   background-color: #ffffff;
   color: #000000;
   border: 2px solid #000000;
   box-shadow: none;
 }
+
 #keyboard .keyboard-key:active {
   background-color: #000000;
   color: #ffffff;
@@ -225,6 +244,7 @@ overview is the view you get when clicking on "Activities" or hitting mod4
   border: 2px solid #000000;
   border-radius: 5px;
 }
+
 .workspaces-view > * > ClutterActor:hover {
   border: 2px solid #000000;
   border-radius: 5px;
@@ -333,14 +353,17 @@ QUICKSETTINGS
   color: #000000;
   border: 2px solid #000000;
 }
+
 .quick-toggle-menu .icon {
   background-color: #ffffff;
   border: 2px solid #000000;
 }
+
 .quick-toggle-menu .popup-menu-item:hover, .quick-toggle-menu .popup-menu-item:focus {
   background-color: #000000 !important;
   color: #ffffff !important;
 }
+
 .quick-toggle-menu .popup-separator-menu-item {
   background-color: #000000;
 }
@@ -348,18 +371,28 @@ QUICKSETTINGS
 .toggle-switch {
   background-image: url("./assets/toggle-off.svg");
 }
+
 .toggle-switch:checked {
   background-image: url("./assets/toggle-on.svg");
 }
 
+.end-session-dialog {
+  /* background-color: black; */
+  color: black;
+}
+
+.modal-dialog .modal-dialog-linked-button, .notification-button {
+  /* background-color: black; */
+  color: black;
+}
+
 /* 2024. Jul 12
-   On Debian trixie, password input is broken in that there is white text on white background (i.e., not visible).
+   On Debian trixie, password input is broken in that there is white text on
+   white background (i.e., not visible).
    For some reason, just setting the color property to black does not work.
    As a work-around, set the background to black (this works)
 */
 .prompt-dialog-password-entry {
-   /*color: #ffffff; */
-   background-color: black;
+  /*color: #ffffff; */
+  background-color: black;
 }
-
-/*# sourceMappingURL=gnome-shell.css.map */
