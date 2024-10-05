@@ -1,5 +1,12 @@
+pneink (1.1) trixie; urgency=medium
+
+  * Properly use .scss files
+  * A few more GNOME 46 changes
+
+ -- Maximilian Weigand <mweigand@mweigand.net>  Sat, 05 Oct 2024 21:30:14 +0200
+
 pneink (1.0) trixie; urgency=medium
 
   * Initial release.
 
- -- Maximilian Weigand <Maximilian Weigand (PineNote Signing Key 3) <mweigand@mweigand.net>>  Wed, 28 Aug 2024 08:10:44 +0200
+ -- Maximilian Weigand <Maximilian Weigand <mweigand@mweigand.net>>  Wed, 28 Aug 2024 08:10:44 +0200
