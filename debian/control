@@ -14,5 +14,6 @@ Package: pneink
 Architecture: all
 Depends:
  ${misc:Depends},
-Description: <insert up to 60 chars description>
- <Insert long description, indented with spaces.>
+Description: GNOME theme for the Pine64 PineNote Eink Tablet
+ EInk-friendly GNOME theme for the PineNote, originally created by github user
+ MichiMolle (https://github.com/MichiMolle/PNEink)
