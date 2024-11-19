@@ -251,13 +251,6 @@ overview is the view you get when clicking on "Activities" or hitting mod4
 }
 
 /*
-ICON GRID
- */
-.overview-icon-with-label {
-  color: #000000;
-}
-
-/*
 BUTTONS
  */
 #LookingGlassDialog > #Toolbar .lg-toolbar-button, .app-folder-dialog .folder-name-container .edit-folder-button, .button, .icon-button {
@@ -381,7 +374,7 @@ QUICKSETTINGS
   color: black;
 }
 
-.modal-dialog .modal-dialog-linked-button, .notification-button {
+.modal-dialog .modal-dialog-linked-button, .notification-button, .modal-dialog-button {
   /* background-color: black; */
   color: black;
 }
