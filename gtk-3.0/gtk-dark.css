@@ -24,6 +24,7 @@ headerbar {
   border-radius: 8px 8px 0px 0px;
   padding: 5px;
 }
+
 headerbar separator {
   background-color: rgba(0, 0, 0, 0);
 }
@@ -32,6 +33,7 @@ headerbar separator {
   background-color: #ffffff !important;
   color: #000000;
 }
+
 .titlebar * {
   color: #000000;
 }
@@ -45,10 +47,12 @@ headerbar separator {
   min-width: 18px;
   border-radius: 50%;
 }
+
 .titlebutton:hover {
   background-color: #000000;
   color: #ffffff;
 }
+
 .titlebutton:hover * {
   color: #ffffff;
 }
@@ -63,9 +67,11 @@ switch {
   border-radius: 14px;
   padding: 2px;
 }
+
 switch:hover {
   background-color: unset;
 }
+
 switch > slider {
   background-color: #000000;
   border: 2px solid #000000;
@@ -73,6 +79,7 @@ switch > slider {
   min-width: 18px;
   min-height: 18px;
 }
+
 switch * {
   color: rgba(0, 0, 0, 0);
 }
@@ -104,6 +111,7 @@ popover {
   border: 2px solid #000000;
   border-radius: 5px;
 }
+
 popover contents {
   background-color: #ffffff;
   border: 1px solid #000000;
@@ -149,9 +157,11 @@ button:hover * {
   background-color: #000000;
   color: #ffffff;
 }
+
 .suggested-action * {
   color: #ffffff;
 }
+
 .suggested-action:disabled {
   border: 2px solid #646464;
   background-color: #646464;
@@ -160,12 +170,15 @@ button:hover * {
 buttonbox button {
   border-radius: 0;
 }
+
 buttonbox button:first-child {
   border-radius: 5px 0px 0px 5px;
 }
+
 buttonbox button:last-child {
   border-radius: 0px 5px 5px 0px;
 }
+
 buttonbox button:checked {
   background-color: #000000;
   color: #ffffff;
@@ -226,7 +239,7 @@ scrollbar.vertical slider {
 }
 
 .gtkstyle-fallback {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   color: #000000;
 }
 
@@ -235,7 +248,7 @@ scrollbar.vertical slider {
 iconview text,
 textview text {
   color: #000000;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
 }
 
 .view text selection {
@@ -368,5 +381,3 @@ viewswitcher button:checked {
 viewswitcher button:checked * {
   color: #ffffff;
 }
-
-/*# sourceMappingURL=gtk-dark.css.map */
