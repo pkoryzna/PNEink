@@ -318,6 +318,23 @@ checkbutton {
   border: none !important;
 }
 
+checkbutton check {
+  border: 2px solid #000000;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+spinbutton entry {
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 0 5px;
+  text-align: right;
+}
+
+frame {
+  border: 1px solid #777777;
+}
+
 .background {
   background-color: #ffffff;
 }
@@ -356,6 +373,10 @@ checkbutton {
   color: #000000;
   padding: 6px;
   border-radius: 5px;
+}
+
+menuitem {
+  margin: 5px;
 }
 
 /* app-specific css */
