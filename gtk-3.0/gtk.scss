@@ -63,18 +63,18 @@ row{
   border: 1px solid #ffffff;
 }
 
-row:hover{
+popover:hover, row:hover{
   background-color: #ffffff;
   color: #000000;
 }
 
-row:selected{
+treeview:selected, row:selected{
   border: 1px solid #000000;
   background-color: #000000;
   color: #ffffff;
 }
 
-row:selected *{
+treeview:selected *, row:selected *{
   color: #ffffff;
 }
 
